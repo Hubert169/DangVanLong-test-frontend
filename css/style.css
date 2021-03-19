@@ -37,9 +37,12 @@ section {
 
 .post-title {
     position: absolute;
-    left: 50%;
+    left: 0;
+    right: 0;
+    padding-left: 15px;
+    padding-right: 15px;
     top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateY(-50%);
     text-align: center;
     z-index: 2;
 }
@@ -327,6 +330,11 @@ footer {
     }
     .footer-content {
         display: block;
+        padding: 45px 15px 0;
+    }
+    .footer-bottom {
+        padding-left: 15px;
+        padding-right: 15px;
     }
     .list-social {
         padding-left: 0;
